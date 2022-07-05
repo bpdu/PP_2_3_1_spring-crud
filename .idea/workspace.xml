@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b61e35b7-50ca-4c20-a87d-3822d6eed051" name="Changes" comment="Add db.properties">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/AppConfig.java" afterDir="false" />
+    <list default="true" id="b61e35b7-50ca-4c20-a87d-3822d6eed051" name="Changes" comment="Add AppConfig">
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring_crud/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring_crud/dao/UserDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_crud/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_crud/model/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -63,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657007928703</updated>
       <workItem from="1657007933271" duration="797000" />
-      <workItem from="1657009272670" duration="5378000" />
+      <workItem from="1657009272670" duration="7545000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1657008379608</created>
@@ -86,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657025627121</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add AppConfig">
+      <created>1657027634025</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657027634025</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +124,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add model class User" />
     <MESSAGE value="Add db.properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add db.properties" />
+    <MESSAGE value="Add AppConfig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add AppConfig" />
   </component>
 </project>
