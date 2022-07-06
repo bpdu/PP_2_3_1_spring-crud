@@ -1,48 +1,36 @@
 package spring_crud.dao;
 
-import org.hibernate.SessionFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 import spring_crud.model.User;
 
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import java.util.List;
 
 @Repository
+@Transactional
 public class UserDaoImpl implements UserDao {
 
-    @Autowired
-    private SessionFactory sessionFactory;
+    @PersistenceContext
+    private EntityManager entityManager;
 
     @Override
-    public void addUser(User user) {
-        sessionFactory.getCurrentSession().save(user);
-    }
+    public void addUser(User user) { entityManager.persist(user); }
 
     @Override
-    public void removeUser(User user) {
-        sessionFactory.getCurrentSession().remove(user);
-    }
+    public void deleteUser(long id) { entityManager.remove(entityManager.find(User.class, id)); }
 
     @Override
-    public User getUser(long id) {
-        return (User) sessionFactory.getCurrentSession()
-                .createQuery("from User user where user.id = :id")
-                .setParameter("id", id)
-                .getSingleResult();
-    }
+    public User getUser(long id) { return entityManager.find(User.class, id); }
 
     @Override
-    public void setUser(long id, User user) {
-        sessionFactory.getCurrentSession()
-                .createQuery("update User set name = :name, surname = :surname, age = :age where id = :id")
-                .setParameter("name", user.getName())
-                .setParameter("surname", user.getSurname())
-                .setParameter("age", user.getAge())
-                .executeUpdate();
-    }
+    public void updateUser(User user) { entityManager.merge(user); }
 
     @Override
     public List<User> getUserList() {
-        return sessionFactory.getCurrentSession().createQuery("from User").getResultList();
+        return entityManager
+                .createQuery("select u from User u", User.class)
+                .getResultList();
     }
 }
