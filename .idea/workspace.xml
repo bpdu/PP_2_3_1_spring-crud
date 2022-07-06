@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b61e35b7-50ca-4c20-a87d-3822d6eed051" name="Changes" comment="Add UserService and UserServiceImpl">
+    <list default="true" id="b61e35b7-50ca-4c20-a87d-3822d6eed051" name="Changes" comment="Use EntityManager instance instead of SessionFactory">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring_crud/config/HibernateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/spring_crud/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_crud/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_crud/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_crud/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_crud/dao/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_crud/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_crud/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_crud/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_crud/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_crud/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_crud/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_crud/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_crud/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -56,6 +61,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="spring_crud.config" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657007928703</updated>
       <workItem from="1657007933271" duration="797000" />
-      <workItem from="1657009272670" duration="11624000" />
+      <workItem from="1657009272670" duration="17271000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1657008379608</created>
@@ -109,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657031067996</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Use EntityManager instance instead of SessionFactory">
+      <created>1657096319646</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657096319646</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +158,7 @@
     <MESSAGE value="Add AppConfig" />
     <MESSAGE value="Add UserDao and UserDaoImpl" />
     <MESSAGE value="Add UserService and UserServiceImpl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add UserService and UserServiceImpl" />
+    <MESSAGE value="Use EntityManager instance instead of SessionFactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use EntityManager instance instead of SessionFactory" />
   </component>
 </project>
