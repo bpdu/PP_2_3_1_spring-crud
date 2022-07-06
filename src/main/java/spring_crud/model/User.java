@@ -11,17 +11,17 @@ public class User {
     private long id;
     @Column(name="name")
     private String name;
-    @Column(name="surname")
-    private String surname;
+    @Column(name="email")
+    private String email;
     @Column(name="age")
     private Integer age;
 
     public User() {}
 
-    public User(long id, String name, String surname, Integer age) {
+    public User(long id, String name, String email, Integer age) {
         this.id = id;
         this.name = name;
-        this.surname = surname;
+        this.email = email;
         this.age = age;
     }
 
@@ -33,14 +33,16 @@ public class User {
 
     public void setName(String name) { this.name = name; }
 
-    public String getSurname() { return surname; }
+    public String getEmail() { return email; }
 
-    public void setSurname(String surname) { this.surname = surname; }
+    public void setEmail(String email) { this.email = email; }
 
     public Integer getAge() { return age; }
 
+    public void setAge(Integer age) { this.age = age; }
+
     @Override
     public String toString() {
-        return "User: " + "id = " + id + ", name= " + name + ", surname= " + surname + ", age= " + age;
+        return "User: " + "id = " + id + ", name= " + name + ", email= " + email + ", age= " + age;
     }
 }
