@@ -12,7 +12,7 @@ public class UserServiceImpl implements UserService {
 
     private UserDao userDao;
 
-    public void UserServiceImpl(UserDao userDao) { this.userDao = userDao; }
+    public UserServiceImpl(UserDao userDao) { this.userDao = userDao; }
 
     @Transactional
     @Override
@@ -32,7 +32,7 @@ public class UserServiceImpl implements UserService {
         userDao.updateUser(id, name, email, age);
     }
 
-    @Transactional(readOnly = true)
+    @Transactional
     @Override
     public List<User> getUserList() { return userDao.getUserList(); }
 }

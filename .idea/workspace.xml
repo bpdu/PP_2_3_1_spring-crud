@@ -9,7 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b61e35b7-50ca-4c20-a87d-3822d6eed051" name="Changes" comment="Add user manually" />
+    <list default="true" id="b61e35b7-50ca-4c20-a87d-3822d6eed051" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring_crud/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_crud/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +178,7 @@
       <workItem from="1657007933271" duration="797000" />
       <workItem from="1657009272670" duration="19614000" />
       <workItem from="1657123347065" duration="4482000" />
-      <workItem from="1657178282624" duration="2856000" />
+      <workItem from="1657178282624" duration="4362000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1657008379608</created>
@@ -229,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657102089760</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add user manually">
+      <created>1657183750391</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657183750391</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +278,7 @@
     <MESSAGE value="Add UserService and UserServiceImpl" />
     <MESSAGE value="Use EntityManager instance instead of SessionFactory" />
     <MESSAGE value="Add WebConfig" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add WebConfig" />
+    <MESSAGE value="Add user manually" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add user manually" />
   </component>
 </project>
