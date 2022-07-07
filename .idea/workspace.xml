@@ -9,19 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b61e35b7-50ca-4c20-a87d-3822d6eed051" name="Changes" comment="Add WebConfig">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_crud/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_crud/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_crud/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_crud/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_crud/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_crud/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_crud/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_crud/dao/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_crud/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_crud/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_crud/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_crud/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring_crud/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring_crud/service/UserServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="b61e35b7-50ca-4c20-a87d-3822d6eed051" name="Changes" comment="Add user manually" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,8 +21,8 @@
         <option value="Kotlin Class" />
         <option value="Interface" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,10 +54,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/alexr/Study/Java/IdeaProjects/PP_2_3_1_spring-crud/pom.xml",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -183,6 +171,7 @@
       <workItem from="1657007933271" duration="797000" />
       <workItem from="1657009272670" duration="19614000" />
       <workItem from="1657123347065" duration="4482000" />
+      <workItem from="1657178282624" duration="2856000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1657008379608</created>
@@ -265,6 +254,7 @@
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
+      <path value="$USER_HOME$/Study/Java/IdeaProjects/PP_2_3_1_spring-crud" />
     </ignored-roots>
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add model class User" />
